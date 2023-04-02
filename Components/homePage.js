@@ -32,11 +32,12 @@ function HomeScreen({navigation}) {
               </View>
 
               <View style={{marginTop:vh(40),margin:size(20)}}>
-
-              <Input placeholder="Deepak Mishra"  rightIcon={{ type: 'font-awesome', name: 'pencil',size:size(20),style:{paddingRight:size(10),opacity:0.6}}} inputContainerStyle={{borderWidth:size(1),borderRadius:size(30),backgroundColor:'#f3f3f3',borderColor:'#f3f3f3'}} placeholderTextColor={'black'} inputStyle={{marginLeft:size(10),fontFamily:'Signika-SemiBold'}}  />                
+  
+               <Input placeholder="Deepak Mishra"  rightIcon={{ type: 'font-awesome', name: 'pencil',size:size(20),style:{paddingRight:size(10),opacity:0.6}}} inputContainerStyle={{borderWidth:size(1),borderRadius:size(30),backgroundColor:'#f3f3f3',borderColor:'#f3f3f3'}} placeholderTextColor={'black'} inputStyle={{marginLeft:size(10),fontFamily:'Signika-SemiBold'}}  />                
+              <Input placeholder="+918789033735" rightIcon={{ type: 'font-awesome', name: 'pencil',size:size(20),style:{paddingRight:size(10),opacity:0.6}}}  inputContainerStyle={{borderWidth:size(1),borderRadius:size(30),backgroundColor:'#f3f3f3',borderColor:'#f3f3f3'}} placeholderTextColor={'black'} inputStyle={{marginLeft:size(10),fontFamily:'Signika-SemiBold'}} />                
               <Input placeholder="deepakdevlo@outlook.com" rightIcon={{ type: 'font-awesome', name: 'pencil',size:size(20),style:{paddingRight:size(10),opacity:0.6}}}  inputContainerStyle={{borderWidth:size(1),borderRadius:size(30),backgroundColor:'#f3f3f3',borderColor:'#f3f3f3'}} placeholderTextColor={'black'} inputStyle={{marginLeft:size(10),fontFamily:'Signika-SemiBold'}} />                
-              <Input placeholder="m.deepak1824@gmail.com" rightIcon={{ type: 'font-awesome', name: 'pencil',size:size(20),style:{paddingRight:size(10),opacity:0.6}}}  inputContainerStyle={{borderWidth:size(1),borderRadius:size(30),backgroundColor:'#f3f3f3',borderColor:'#f3f3f3'}} placeholderTextColor={'black'} inputStyle={{marginLeft:size(10),fontFamily:'Signika-SemiBold'}} />                
 
+          
               <View>
                 <Button buttonStyle={{margin:size(10),borderRadius:50,backgroundColor:'#52cbbf'}}  title={"Save Now"} titleStyle={{fontFamily:'Signika-SemiBold'}}  onPress={navigater} />
               </View>
